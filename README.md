@@ -11,7 +11,7 @@ Advent of Code 2020 task solutions written in JavaScript
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
 | [Day 1: Report Repair](https://github.com/tdxa/advent_of_code/tree/master/day_01)| 🌟 | 🌟 |
-| [Day 2: Password Philosophy]()|  |  |
+| [Day 2: Password Philosophy]()| 🌟 | ⏳ |
 | [Day 3: Toboggan Trajectory]()| |  |
 | [Day 4: Passport Processing]()|  |  |
 | [Day 5: Binary Boarding]()|  |  |
