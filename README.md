@@ -1,8 +1,8 @@
 # Advent of Code 2020 
-Advent of Code 2020 task solutions written in JavaScript 
 
 [Advent of Code](http://adventofcode.com) is an online event created by [Eric Wastl](http://was.tl). Each year, starting on Dec 1st, an advent calendar of small programming puzzles that can be solved in any programming language.
 
+Task solutions are written in JavaScript. The 'input' files contain examples from the task body, not 'puzzle input'.
 
 ## My calendar
 
@@ -10,7 +10,7 @@ Advent of Code 2020 task solutions written in JavaScript
 |---|:---:|:---:|
 | [Day 1: Report Repair](https://github.com/tdxa/advent_of_code/tree/master/day_01)| 🌟 | 🌟 |
 | [Day 2: Password Philosophy]()| 🌟 | ⏳ |
-| [Day 3: Toboggan Trajectory]()| |  |
+| [Day 3: Toboggan Trajectory]()| ⏳ |  |
 | [Day 4: Passport Processing]()|  |  |
 | [Day 5: Binary Boarding]()|  |  |
 | [Day 6: Custom Customs]()|  |  |
