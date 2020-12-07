@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const input = fs.readFileSync('./day_01/input.txt', { encoding: 'utf-8' }).split("\n").filter(x => x).map(x => parseInt(x))
 
-console.log(input)
+//console.log(input)
 
 for (let i = 0; i < input.length; i++) {
     let first_number = 2020 - input[i];
