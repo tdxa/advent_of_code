@@ -1,8 +1,6 @@
 # Advent of Code 2020 
 Advent of Code 2020 task solutions written in JavaScript 
 
-
-## What is Advent of Code?
 [Advent of Code](http://adventofcode.com) is an online event created by [Eric Wastl](http://was.tl). Each year, starting on Dec 1st, an advent calendar of small programming puzzles that can be solved in any programming language.
 
 
