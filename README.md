@@ -12,25 +12,25 @@ Task solutions are written in JavaScript. The 'input' files contain examples fro
 | 🔐 [Day 2: Password Philosophy](https://github.com/tdxa/advent_of_code/tree/master/day_02)| 🌟 | 🌟 |
 | ⛷ [Day 3: Toboggan Trajectory](https://github.com/tdxa/advent_of_code/tree/master/day_03)| 🌟 | 🌟 |
 | 🛂 [Day 4: Passport Processing](https://github.com/tdxa/advent_of_code/tree/master/day_04)| 🌟 | ⏳ |
-| ✈ [Day 5: Binary Boarding](https://github.com/tdxa/advent_of_code/tree/master/day_05)|  |  |
-| 📋 [Day 6: Custom Customs](https://github.com/tdxa/advent_of_code/tree/master/day_06)| 🌟 | ⏳ |
+| ✈ [Day 5: Binary Boarding](https://github.com/tdxa/advent_of_code/tree/master/day_05)| ⏳ |  |
+| 📋 [Day 6: Custom Customs](https://github.com/tdxa/advent_of_code/tree/master/day_06)| 🌟 | 🌟 |
 | [Day 7: Handy Haversacks](https://github.com/tdxa/advent_of_code/tree/master/day_07)|  |  |
-| [Day 8: TBD]()| | |
-| [Day 9: TBD]()| | |
-| [Day 10: TBD]()| | |
-| [Day 11: TBD]()| | |
-| [Day 12: TBD]()| | |
-| [Day 13: TBD]()| | |
-| [Day 14: TBD]()| | |
-| [Day 15: TBD]()| | |
-| [Day 16: TBD]()| | |
-| [Day 17: TBD]()| | |
-| [Day 18: TBD]()| | |
-| [Day 19: TBD]()| | |
-| [Day 20: TBD]()| | |
-| [Day 21: TBD]()| | |
-| [Day 22: TBD]()| | |
-| [Day 23: TBD]()| | |
-| [Day 24: TBD]()| | |
-| [Day 25: TBD]()| | |
+| [Day 8: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_08)| | |
+| [Day 9: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_09)| | |
+| [Day 10: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_10)| | |
+| [Day 11: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_11)| | |
+| [Day 12: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_12)| | |
+| [Day 13: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_13)| | |
+| [Day 14: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_14)| | |
+| [Day 15: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_15)| | |
+| [Day 16: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_16)| | |
+| [Day 17: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_17)| | |
+| [Day 18: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_18)| | |
+| [Day 19: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_19)| | |
+| [Day 20: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_20)| | |
+| [Day 21: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_21)| | |
+| [Day 22: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_22)| | |
+| [Day 23: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_23)| | |
+| [Day 24: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_24)| | |
+| [Day 25: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_25)| | |
 
