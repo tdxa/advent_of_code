@@ -5,22 +5,6 @@ const input = fs.readFileSync('./day_07/input.txt', { encoding: 'utf-8' }).split
 
 const map_bags = new Map();
 
-function hasShindGold(color_bag) {
-    if (color_bag === 'shiny gold')
-        return true;
-    if (!map_bags.has(color_bag))
-        return false;
-
-    const inner = map_bags.get(color_bag);
-
-    for (const { color: bag } of inner) {
-        if (hasShindGold(bag))
-            return true;
-    }
-    return false;
-
-}
-
 for (const item of input) {
     const [bag, inner_bags] = item.split(' bags contain ');
 
@@ -40,12 +24,17 @@ for (const item of input) {
     })
 }
 
-const colors = map_bags.keys()
-let sum = 0;
+function total_inside(top) {
+    if (top.quantity == 0)
+        return 0
 
-for (const color of colors) {
-    if (hasShindGold(color) && color != 'shiny gold')
-        sum++
+    const inner = map_bags.get(top.color);
+    let sum = 1;
+
+    for (const bag of inner) {
+        sum += bag.quantity * total_inside(bag);
+    }
+    return sum;
 }
 
-console.log(sum)
+console.log(total_inside({ quantity: 1, color: 'shiny gold' })-1);
