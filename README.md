@@ -12,10 +12,10 @@ Task solutions are written in JavaScript. The 'input' files contain examples fro
 | 🔐 [Day 2: Password Philosophy](https://github.com/tdxa/advent_of_code/tree/master/day_02)| 🌟 | 🌟 |
 | ⛷ [Day 3: Toboggan Trajectory](https://github.com/tdxa/advent_of_code/tree/master/day_03)| 🌟 | 🌟 |
 | 🛂 [Day 4: Passport Processing](https://github.com/tdxa/advent_of_code/tree/master/day_04)| 🌟 | ⏳ |
-| ✈ [Day 5: Binary Boarding](https://github.com/tdxa/advent_of_code/tree/master/day_05)| ⏳ |  |
+| ✈ [Day 5: Binary Boarding](https://github.com/tdxa/advent_of_code/tree/master/day_05)| ⏳ | ⏳ |
 | 📋 [Day 6: Custom Customs](https://github.com/tdxa/advent_of_code/tree/master/day_06)| 🌟 | 🌟 |
 | 🧳 [Day 7: Handy Haversacks](https://github.com/tdxa/advent_of_code/tree/master/day_07)| 🌟 | 🌟 |
-| 🎮 [Day 8: Handheld Halting](https://github.com/tdxa/advent_of_code/tree/master/day_08)| | |
+| 🎮 [Day 8: Handheld Halting](https://github.com/tdxa/advent_of_code/tree/master/day_08)|🌟 | ⏳|
 | 🖥 [Day 9: Encoding Error](https://github.com/tdxa/advent_of_code/tree/master/day_09)| | |
 | 🔌 [Day 10: Adapter Array](https://github.com/tdxa/advent_of_code/tree/master/day_10)| | |
 | 💺 [Day 11: Seating System](https://github.com/tdxa/advent_of_code/tree/master/day_11)| | |
