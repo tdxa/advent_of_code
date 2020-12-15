@@ -34,5 +34,5 @@ Task solutions are written in JavaScript. The 'input' files contain examples fro
 | [Day 24: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_24)| | |
 | [Day 25: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_25)| | |
 
-### Total stars: 11🌟
+#### Total stars: 11🌟
 
