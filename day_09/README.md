@@ -1,4 +1,4 @@
-# Day 8: Handheld Halting
+# Day 9: Encoding Error
 
 ## Part One
 

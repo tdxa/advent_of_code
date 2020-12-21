@@ -23,12 +23,12 @@ Task solutions are written in JavaScript. The 'input' files contain examples fro
 | 🚌 [Day 13: Shuttle Search](https://github.com/tdxa/advent_of_code/tree/master/day_13)| | |
 | 🅾 [Day 14: Docking Data](https://github.com/tdxa/advent_of_code/tree/master/day_14)| | |
 | 🧠 [Day 15: Rambunctious Recitation](https://github.com/tdxa/advent_of_code/tree/master/day_15)| | |
-| [Day 16: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_16)| | |
-| [Day 17: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_17)| | |
-| [Day 18: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_18)| | |
-| [Day 19: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_19)| | |
-| [Day 20: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_20)| | |
-| [Day 21: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_21)| | |
+| 🎫 [Day 16: Ticket Translation](https://github.com/tdxa/advent_of_code/tree/master/day_16)| | |
+| 🎲 [Day 17: Conway Cubes](https://github.com/tdxa/advent_of_code/tree/master/day_17)| | |
+| ➕ [Day 18: Operation Order](https://github.com/tdxa/advent_of_code/tree/master/day_18)| | |
+| 🦑 [Day 19: Monster Messages](https://github.com/tdxa/advent_of_code/tree/master/day_19)| | |
+| 📡 [Day 20: Jurassic Jigsaw](https://github.com/tdxa/advent_of_code/tree/master/day_20)| | |
+| 🍲 [Day 21: Allergen Assessment](https://github.com/tdxa/advent_of_code/tree/master/day_21)| | |
 | [Day 22: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_22)| | |
 | [Day 23: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_23)| | |
 | [Day 24: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_24)| | |
