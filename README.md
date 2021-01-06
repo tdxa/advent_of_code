@@ -17,7 +17,7 @@ Task solutions are written in JavaScript. The 'input' files contain examples fro
 | 🧳 [Day 7: Handy Haversacks](https://github.com/tdxa/advent_of_code/tree/master/day_07)| 🌟 | 🌟 |
 | 🎮 [Day 8: Handheld Halting](https://github.com/tdxa/advent_of_code/tree/master/day_08)|🌟 | ⏳|
 | 🖥 [Day 9: Encoding Error](https://github.com/tdxa/advent_of_code/tree/master/day_09)| 🌟 | 🌟 |
-| 🔌 [Day 10: Adapter Array](https://github.com/tdxa/advent_of_code/tree/master/day_10)| ⏳ | |
+| 🔌 [Day 10: Adapter Array](https://github.com/tdxa/advent_of_code/tree/master/day_10)| 🌟 | ⏳ |
 | 💺 [Day 11: Seating System](https://github.com/tdxa/advent_of_code/tree/master/day_11)| | |
 | 🌩 [Day 12: Rain Risk](https://github.com/tdxa/advent_of_code/tree/master/day_12)| | |
 | 🚌 [Day 13: Shuttle Search](https://github.com/tdxa/advent_of_code/tree/master/day_13)| | |
@@ -34,5 +34,5 @@ Task solutions are written in JavaScript. The 'input' files contain examples fro
 | [Day 24: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_24)| | |
 | [Day 25: TBD](https://github.com/tdxa/advent_of_code/tree/master/day_25)| | |
 
-### Total stars: 14🌟
+### Total stars: 15🌟
 
