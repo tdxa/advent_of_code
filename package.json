@@ -1,0 +1,23 @@
+{
+  "name": "advent_of_code",
+  "version": "1.0.0",
+  "description": "Task from Advent of Code 2020",
+  "main": "",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdxa/advent_of_code.git"
+  },
+  "author": "tdxa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tdxa/advent_of_code/issues"
+  },
+  "homepage": "https://github.com/tdxa/advent_of_code#readme"
+}
