@@ -1,0 +1,32 @@
+{
+    // "extends": "ts-node/node16/tsconfig.json",
+    "ts-node": {
+        "files": true,
+        "transpileOnly": true 
+    },
+    "compilerOptions": {
+        "target": "es2020",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "rootDir": ".",
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+}
