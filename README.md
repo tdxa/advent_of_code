@@ -5,7 +5,12 @@ This repository contains my solutions for Advent of Code challenges implemented 
 ## About Advent of Code
 [Advent of Code](http://adventofcode.com) is an annual online event created by Eric Wastl. Starting on December 1st, it presents an advent calendar of small programming puzzles that participants solve using their programming skills and creativity. Each day unveils a new challenge, fostering problem-solving and coding abilities.
 
-![christmas](https://github.com/tdxa/advent_of_code_2022/assets/51888438/674102c8-4dfd-4f1b-926e-48449c6e507c)
+### Participated Editions
+- [2023](https://github.com/tdxa/advent_of_code/tree/master/years/2023)
+
+<p align="center">
+  <img src="https://github.com/tdxa/advent_of_code_2022/assets/51888438/674102c8-4dfd-4f1b-926e-48449c6e507c" width="300" />
+</p>
 
 ## Usage
 ### Setup
@@ -24,7 +29,7 @@ npm run advent -- <year> <day>
 
 Replace <year> and <day> with the desired year and day numbers, respectively.
 
-Example:
+**Example:**
 
 
 ```
@@ -39,6 +44,6 @@ To run tests for solutions, execute:
 
 ```npm test```
 
-
-### Additional Notes
-Task solutions are written in TypeScript.
+<p align="center">
+  <img src="https://github.com/tdxa/advent_of_code/assets/51888438/4ed8e3ac-a6fd-470f-9001-d5c97aadb2c7" width="300" />
+</p>
