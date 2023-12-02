@@ -6,7 +6,7 @@
 
 | Day  | Part One | Part Two | 
 |---|:---:|:---:|
-|  [Day 1: TBD ](https://github.com/tdxa/advent_of_code/tree/master/years/2023/day-1)|  |  |
+|  [ ❄ Day 1: Trebuchet?! ](https://github.com/tdxa/advent_of_code/tree/master/years/2023/day-1)| ⭐ | ⌛ |
 |  [Day 2: TBD]()|  |  |
 |  [Day 3: TBD]()|  |  |
 |  [Day 4: TBD]()|  |  |
@@ -32,5 +32,5 @@
 | [Day 24: TBD]()| | |
 | [Day 25: TBD]()| | |
 
-### Total stars: 0🌟
+### Total stars: 1🌟
 
