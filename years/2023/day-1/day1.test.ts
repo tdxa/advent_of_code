@@ -1,4 +1,4 @@
-import { sumStringArray } from "../../../helpers/array";
+import { sumArray } from "../../../helpers/array";
 import { DIGIT_NAMES_MAP, recoverCalibrationValues } from "./day1";
 
 describe("Recover Calibration Values - part 1", () => {
@@ -15,7 +15,7 @@ describe("Recover Calibration Values - part 1", () => {
     const calibrationValues = ["12", "38", "15", "77"];
     const expectedCalibrationSum = 142;
 
-    const calibrationSum = sumStringArray(calibrationValues);
+    const calibrationSum = sumArray(calibrationValues);
 
     expect(calibrationSum).toEqual(expectedCalibrationSum);
   });

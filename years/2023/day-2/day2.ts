@@ -1,4 +1,5 @@
 import { WINDOWS_NEWLINE } from "../../../constants";
+import { multiplyAllElementsArray, sumArray } from "../../../helpers/array";
 import { readFile } from "../../../helpers/files";
 import { Color, GameData, GameStats, Posibilities } from "./types";
 
@@ -62,6 +63,22 @@ export const checkGamePossibility = (games: GameData): Posibilities => {
 export const sumPossibleGames = (posibilities: Posibilities) =>
   posibilities.possible.reduce((a, b) => a + b, 0);
 
-const possibilities = checkGamePossibility(transformGamesData(lines));
+export const getMinimumCubes = (game: GameStats): Array<number> =>
+  Object.values(game).flatMap((counts: Array<number>) => Math.max(...counts));
 
+export const findFewestCubes = (games: GameData): Array<Array<number>> =>
+  Object.keys(games).map((gameId: string) => {
+    const id = parseInt(gameId);
+    const game = games[id];
+
+    return getMinimumCubes(game);
+  });
+
+export const multiplyPowerGames = (games: Array<Array<number>>) =>
+  sumArray(games.map((game) => multiplyAllElementsArray(game)));
+
+const possibilities = checkGamePossibility(transformGamesData(lines));
 console.log(sumPossibleGames(possibilities));
+
+const fewestCubes = findFewestCubes(transformGamesData(lines));
+console.log(multiplyPowerGames(fewestCubes));

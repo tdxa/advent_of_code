@@ -2,6 +2,8 @@ import {
   transformGamesData,
   checkGamePossibility,
   sumPossibleGames,
+  findFewestCubes,
+  multiplyPowerGames,
 } from "./day2";
 import { GameData, Posibilities } from "./types";
 
@@ -60,5 +62,33 @@ describe("Check Game Possibility", () => {
     const sum = sumPossibleGames(posibilities);
 
     expect(sum).toEqual(8);
+  });
+});
+
+describe("Check Game Power", () => {
+  const games = {
+    "1": { blue: [3, 6], red: [4, 1], green: [2, 2] },
+    "2": { blue: [1, 4, 1], red: [1], green: [2, 3, 1] },
+    "3": { blue: [6, 5], red: [20, 4, 1], green: [8, 13, 5] },
+    "4": { blue: [6, 15], red: [3, 6, 14], green: [1, 3, 3] },
+    "5": { blue: [1, 2], red: [6, 1], green: [3, 2] },
+  };
+
+  const cubes = [
+    [6, 4, 2],
+    [4, 1, 3],
+    [6, 20, 13],
+    [15, 14, 3],
+    [2, 6, 3],
+  ];
+
+  it("should correctly find the fewest cubes for each game", () => {
+    const result = findFewestCubes(games);
+    expect(result).toEqual(cubes);
+  });
+
+  it("should correctly sum up power of games", () => {
+    const sum = multiplyPowerGames(cubes);
+    expect(sum).toEqual(2286);
   });
 });
