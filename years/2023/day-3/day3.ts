@@ -1,15 +1,14 @@
 import { WINDOWS_NEWLINE } from "../../../constants";
 import { readFile } from "../../../helpers/files";
-import { NumberItem, SymbolItem } from "./types";
+import { NumberItem, ProcessedLines, SymbolItem } from "./types";
 
 const INPUT_FILE = __dirname + "/input.txt";
 const lines = readFile(INPUT_FILE).split(WINDOWS_NEWLINE);
 
-export const processLinesToItems = (
-  lines: Array<string>
-): { numbers: Array<NumberItem>; symbols: Array<SymbolItem> } => {
+export const processLinesToItems = (lines: Array<string>): ProcessedLines => {
   const numbers: Array<NumberItem> = [];
   const symbols: Array<SymbolItem> = [];
+  const gears: Array<SymbolItem> = [];
 
   lines.forEach((line, index) => {
     const symbolRegex = /[^0-9|.]/g;
@@ -33,9 +32,17 @@ export const processLinesToItems = (
         value,
       });
     });
+
+    const gearRegex = /\*/g;
+    Array.from(line.matchAll(gearRegex)).forEach((match) =>
+      gears.push({
+        line: index,
+        index: match.index!,
+      })
+    );
   });
 
-  return { numbers, symbols };
+  return { numbers, symbols, gears };
 };
 
 export const isNeighbor = (symbol: SymbolItem, number: NumberItem): boolean => {
@@ -67,6 +74,32 @@ export const filterNumbersByNeighbor = (
 export const sumPartNumber = (numbers: Array<NumberItem>) =>
   numbers.reduce((acc, num) => acc + num.value, 0);
 
-const { numbers, symbols } = processLinesToItems(lines);
+export const validateGears = (
+  gears: Array<SymbolItem>,
+  numbers: Array<NumberItem>
+): Array<number> =>
+  gears
+    .map((gear) => {
+      const filteredNumbers = numbers.filter((number) =>
+        isNeighbor(gear, number)
+      );
+
+      const gearValue =
+        filteredNumbers.length === 2
+          ? filteredNumbers.reduce(
+              (acc, num) => (acc === 0 ? num.value : acc * num.value),
+              0
+            )
+          : null;
+
+      return gearValue;
+    })
+    .filter((gear): gear is number => gear !== null);
+
+const { numbers, symbols, gears } = processLinesToItems(lines);
+
 const filteredNumbers = filterNumbersByNeighbor(numbers, symbols);
 console.log(sumPartNumber(filteredNumbers));
+
+const filteredGears = validateGears(gears, numbers);
+console.log(filteredGears.reduce((a, b) => a + b));

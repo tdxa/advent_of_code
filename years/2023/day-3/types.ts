@@ -9,3 +9,9 @@ export type SymbolItem = {
   line: number;
   index: number;
 };
+
+export interface ProcessedLines {
+  numbers: Array<NumberItem>;
+  symbols: Array<SymbolItem>;
+  gears: Array<SymbolItem>;
+}
