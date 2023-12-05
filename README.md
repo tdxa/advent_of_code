@@ -45,7 +45,13 @@ npm run advent -- 2023 2
 
 ### Running Tests
 
-To run tests for solutions, execute:
+to run tests for specific solution, execute:
+
+```
+npm run advent-test -- <year> <day>
+```
+
+To run tests for all solutions, execute:
 
 ```
 npm test

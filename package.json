@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "advent": "ts-node ./scripts/runAdvent.ts",
+    "advent-test": "ts-node ./scripts/runAdventTest.ts",
     "test": "jest"
   },
   "author": "tdxa",
