@@ -9,6 +9,7 @@ This repository contains my solutions for Advent of Code challenges implemented 
 ### Participated Editions
 
 - [2023](https://github.com/tdxa/advent_of_code/tree/master/years/2023)
+- [2024](https://github.com/tdxa/advent_of_code/tree/master/years/2024)
 
 <p align="center">
   <img src="https://github.com/tdxa/advent_of_code_2022/assets/51888438/674102c8-4dfd-4f1b-926e-48449c6e507c" width="300" />
