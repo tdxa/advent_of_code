@@ -1,5 +1,6 @@
 import { WINDOWS_NEWLINE } from "../../../constants";
 import { REGEX_SPACE_ONE_OR_MORE } from "../../../constants/regex";
+import { getValueFrequency } from "../../../helpers/array";
 import { readFile } from "../../../helpers/files";
 
 const INPUT_FILE = __dirname + "/input.txt";
@@ -15,12 +16,14 @@ lines.forEach((line) => {
   rightColumn.push(right);
 });
 
+// PART ONE
+
 const sortedLeftColumn: Array<number> = leftColumn.sort();
 const sortedRightColumn: Array<number> = rightColumn.sort();
 
 const calculateDistance = (
-  leftColumn: number[],
-  rightColumn: number[]
+  leftColumn: Array<number>,
+  rightColumn: Array<number>
 ): number =>
   leftColumn.reduce(
     (sum, leftValue, i) => sum + Math.abs(leftValue - rightColumn[i]),
@@ -28,3 +31,16 @@ const calculateDistance = (
   );
 
 console.log(calculateDistance(sortedLeftColumn, sortedRightColumn));
+
+// PART TWO
+
+const calculateSimilarityScore = (
+  leftColumn: Array<number>,
+  rightColumn: Array<number>
+) =>
+  leftColumn.reduce(
+    (sum, value) => sum + value * getValueFrequency(rightColumn, value),
+    0
+  );
+
+console.log(calculateSimilarityScore(sortedLeftColumn, sortedRightColumn));
