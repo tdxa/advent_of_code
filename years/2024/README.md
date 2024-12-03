@@ -16,7 +16,7 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | ----------------------------------------------------------------------------------------------------- | :------: | :------: |
 | [ 🗺️ Day 1: Historian Hysteria ](https://github.com/tdxa/advent_of_code/tree/master/years/2024/day-1) |    ⭐    |    ⭐    |
 | [ 🦌 Day 2: Red-Nosed Reports](https://github.com/tdxa/advent_of_code/tree/master/years/2024/day-2)   |    ⭐    |    ⭐    |
-| [ Day 3: TBD ]()                                                                                      |          |          |
+| [ 💻 Day 3: Mull It Over ](https://github.com/tdxa/advent_of_code/tree/master/years/2024/day-3)       |    ⭐    |    ⏳    |
 | [ Day 4: TBD]()                                                                                       |          |          |
 | [ Day 5: TBD]()                                                                                       |          |          |
 | [ Day 6: TBD]()                                                                                       |          |          |
@@ -40,4 +40,4 @@ Collect stars by solving puzzles. Two puzzles will be made available on each day
 | [Day 24: TBD]()                                                                                       |          |          |
 | [Day 25: TBD]()                                                                                       |          |          |
 
-### Total stars: 4🌟
+### Total stars: 5🌟
